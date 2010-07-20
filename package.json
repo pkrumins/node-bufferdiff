@@ -1,0 +1,40 @@
+{
+   "name": "bufferdiff",
+   "version": "1.0.9",
+   "main": "bufferdiff",
+   "description": "A C++ module for node-js to test if two buffers are equal, fast (could add diff later).",
+   "keywords": [
+       "buffers",
+       "buffer",
+       "diff"
+   ],
+   "maintainers": [
+       {
+           "name": "Peteris Krumins",
+           "email": "peteris.krumins@gmail.com",
+           "web": "http://www.catonmat.net",
+           "twitter": "pkrumins"
+       } 
+   ],
+   "licenses": [
+       {
+           "type": "MIT"
+       } 
+   ],
+   "repositories": [
+       {
+           "type": "git",
+           "url": "http://github.com/pkrumins/node-bufferdiff.git" 
+       } 
+   ],
+   "directories": {
+       "tests": "tests"
+   },
+   "engines": {
+       "node": ">=0.1.93"
+   },
+   "scripts": {
+       "install": "node-waf configure build"
+   }
+}
+
