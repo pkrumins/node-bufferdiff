@@ -8,25 +8,17 @@
        "buffer",
        "diff"
    ],
-   "maintainers": [
-       {
-           "name": "Peteris Krumins",
-           "email": "peteris.krumins@gmail.com",
-           "web": "http://www.catonmat.net",
-           "twitter": "pkrumins"
-       } 
-   ],
-   "licenses": [
-       {
-           "type": "MIT"
-       } 
-   ],
-   "repositories": [
-       {
-           "type": "git",
-           "url": "http://github.com/pkrumins/node-bufferdiff.git" 
-       } 
-   ],
+   "author": {
+       "name": "Peteris Krumins",
+       "email": "peteris.krumins@gmail.com",
+       "web": "http://www.catonmat.net",
+       "twitter": "pkrumins"
+   }, 
+   "license": "MIT",
+   "repository": {
+       "type": "git",
+       "url": "http://github.com/pkrumins/node-bufferdiff.git" 
+   }, 
    "directories": {
        "tests": "tests"
    },
