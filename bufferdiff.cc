@@ -28,11 +28,11 @@ EqBuf(const Arguments &args)
     Buffer *buf1 = ObjectWrap::Unwrap<Buffer>(args[0]->ToObject()); 
     Buffer *buf2 = ObjectWrap::Unwrap<Buffer>(args[1]->ToObject()); 
 
-    if (buf1->length() != buf2->length())
+    if (Buffer::Length(buf1) != Buffer::Length(buf2))
         return scope.Close(False());
 
     return scope.Close(
-        Boolean::New(memcmp(buf1->data(), buf2->data(), buf1->length())==0)
+        Boolean::New(memcmp(Buffer::Data(buf1), Buffer::Data(buf2), Buffer::Length(buf1))==0)
     );
 }
 
