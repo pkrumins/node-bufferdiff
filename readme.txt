@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/pkrumins/node-bufferdiff.png)](http://travis-ci.org/pkrumins/node-bufferdiff)
 This is a node.js module, written in C++, that compares two buffers.
 For now it implements just eqBuf to test if two buffers are equal, fast.
 
