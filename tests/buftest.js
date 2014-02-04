@@ -1,4 +1,4 @@
-var sys = require('sys');
+var util = require('util');
 var eqBuf = require('bufferdiff').eqBuf;
 var fs = require('fs');
 var assert = require('assert');
@@ -18,4 +18,4 @@ assert.ok(!eqBuf(b3, b1), 'b3 = b3');
 assert.ok(!eqBuf(b3, b2), 'b3 = b2');
 assert.ok(!eqBuf(b1, b3), 'b1 = b3');
 
-sys.log('all tests ok');
+util.log('all tests ok');
